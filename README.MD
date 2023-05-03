@@ -25,7 +25,7 @@
 0.9.1
 
 ### macos版本：
-macOS Monterey
+macOS Ventura
 13.3.1
 
 ### 说明
