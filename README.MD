@@ -21,12 +21,20 @@
 + 关闭 vt-d
 + 显存 调整为 512M
 
+### 关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡
+1. 使用本仓库最新版本的efi配置
+2. 去[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) 下载最新版本的oclp并安装
+3.  打开oclp，点击`Post-Install Root Patch`，点击`Start Root Patching`。点击后进行重启，wifi就可以用了！
+
 ### opencore版本：
-0.9.1
+0.9.5
 
 ### macos版本：
 macOS Ventura
-13.3.1
+13.6
+macos Sonoma
+14.0
+
 
 ### 说明
 请自行修改/添加 三码
